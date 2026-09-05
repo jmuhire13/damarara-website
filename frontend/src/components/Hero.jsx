@@ -249,11 +249,8 @@ export default function Hero() {
                     {desc}
                   </p>
 
-                  {/* Price + CTA */}
-                  <div className="flex items-center justify-between">
-                    <span className="font-serif text-2xl font-bold text-[#e07748]">
-                      {price}
-                    </span>
+                  {/* CTA */}
+                  <div className="flex items-center justify-end">
                     <Link
                       to="/products"
                       className="inline-flex items-center gap-2 rounded-full bg-[#e07748] px-5 py-2.5 text-[13px] font-bold uppercase tracking-wide text-white shadow shadow-[#cc5832]/30 transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-[#cc5832]/40"

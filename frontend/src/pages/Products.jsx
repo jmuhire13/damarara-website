@@ -206,12 +206,8 @@ export default function Products() {
                   {name}
                 </h3>
 
-                {/* Price + quantity counter */}
-                <div className="mt-auto flex items-center justify-between">
-                  <span className="font-serif text-lg font-bold text-[#e07748]">
-                    {price}
-                  </span>
-
+                {/* Quantity counter */}
+                <div className="mt-auto flex items-center justify-end">
                   <div className="flex items-center gap-2">
                     <button
                       onClick={() => decrement(name)}
